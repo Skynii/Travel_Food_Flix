@@ -1,0 +1,132 @@
+:root{
+  --vermelho:#e50914;
+  --preto: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: var(--preto);
+  font-family: 'Arial';
+  color: white;
+}
+
+header .container{
+  border: 1px solid black;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.logo{
+  color: var(--vermelho);
+  font-family: 'Arial Black';
+  font-size: 40px;
+  text-align: left;
+  margin-left: 5px;
+  justify-content: space-between;
+}
+
+header nav a{
+  color: #aaa;
+}
+
+header nav a:hover{
+  color:#fff;
+}
+
+nav.paises{
+  text-decoration: none;
+  color:#aaa;
+  border: 0;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.pais-principal{
+  font-size: 16px;
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0, .50), rgba(0,0,0,.50)100%), url('/img/pelourinho.jpg' );
+  height: 500px;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+.pais-principal .descrição{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.btn{
+  background-color: rgba(37,37,37, 0.294);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  margin-top: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.btn:hover{
+  background-color: white;
+  color:#141414;
+}
+
+.brasil-titulo{
+  font-size: 45px;
+  margin-top: 10%;
+  font-family: 'Trebuchet MS', 
+}
+
+.fas{
+  margin: 10px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.pais-principal .container{
+  width: 75%;
+}
+
+.box-comida{
+  height: 40%;
+  width: 40%;
+  display: flex;
+ }
+ 
+ .item img{
+  height: 250px;
+  width: 200px;
+  display: flex;
+ }
+.carrosel-lista{
+  margin-top: 10%;
+}
+
+.titulo-h2{
+  margin: 5px;
+  border: ;
+  text-align: start;
+}
+
+item{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
